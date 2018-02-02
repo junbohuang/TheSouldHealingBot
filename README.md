@@ -13,13 +13,13 @@
 ## how to run
 ### run bash files in terminal for opencc/twitter dataset, or inference
 ### first acquire and split data
-'''bash
+'''python
 python split_data.py
 '''
 ### then run bash
-'''bash
+'''python
 bash opencc.sh
 bash twitter.sh'''
 ### inference can be done once the model has checkpoint available 
-'''bash
+'''python
 bash infer.sh'''
